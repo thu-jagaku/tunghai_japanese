@@ -37,8 +37,8 @@ import json, codecs
 # In[47]:
 
 
-with open('../data/page7.json' , 'r') as reader:
-    jf = json.loads(reader.read())
+with open('../data/page7.json' , 'r',encoding="utf-8") as reader:
+    jf = json.loads(reader.read().replace('\0', ''))
 
 
 # In[48]:
