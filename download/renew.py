@@ -1,8 +1,7 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # coding: utf-8
 
 # In[43]:
-
 
 number = input('第幾回？')
 date = input('日期？')
